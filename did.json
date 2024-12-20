@@ -1,11 +1,11 @@
 {
     "@context": "https://w3id.org/did/v1",
-    "id": "did:web:stellarquantalabs.org",
+    "id": "did:web:stellarquantalabs.github.io:.well-known",
     "verificationMethod": [
         {
-            "id": "did:web:stellarquantalabs.org#keys-1",
+            "id": "did:web:stellarquantalabs.github.io:.well-known#keys-1",
             "type": "JsonWebKey2020",
-            "controller": "did:web:stellarquantalabs.org",
+            "controller": "did:web:stellarquantalabs.github.io:.well-known",
             "publicKeyJwk": {
                 "kty": "RSA",
                 "n": "sslhKR278Q7Emkau+Aroabtx3RjQ+gfWpB85gndtP4qMfhuux0pGYu9ob7NHOiesvlhmojAVWyPURKdbiPCg8ZAzqJ2+kNnTbafScvoqWNmoP6K4zq4EbGXguYUYlUUwRngLGWgqAHFpN/3z6YEkSSceYNpIxnDOERHm2sjYJVkgN99mJXl1YTHiqWQyrO7dtVetoMdgH3kCUDGD3NQlCZX2KKZr0WV/0mMElqgaxbDD9G6tTGJaLZQrkRgSN8c56FYTcUxG/4L/mD37Mur0dQj+hkskP05oqgNRwqnN5vOhcgcM7uDs3EOSNFVzx9KKiYix7jLjiQ+hoOiUn9/OCQ==",
@@ -14,6 +14,6 @@
         }
     ],
     "assertionMethod": [
-        "did:web:stellarquantalabs.org#keys-1"
+        "did:web:stellarquantalabs.github.io:.well-known#keys-1"
     ]
 }
